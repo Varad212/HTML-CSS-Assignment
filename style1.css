@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@100&display=swap');
+
+*{
+  height:100;
+  width:100;
+  
+}
+
+
+body{
+    background-image: url(background-home-desktop.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+}
+
+div{
+    position: relative;
+    top:30px;
+    right:40px;
+    overflow: hidden;
+}
+nav a {
+    font-family: Barlow Condensed;
+    font-size: 20px;
+    color: #f9f8eb;
+    text-transform: uppercase;
+  }
+  div nav{
+    display: flex;
+    justify-content: space-between;
+    float:right;
+    backdrop-filter: blur(8px);
+    -webkit-backdrop-filter: blur(8px);
+  }
+   nav ul {
+        list-style: none;
+        padding: 0;
+        display: flex;
+    }
+    nav a {
+        text-decoration: none;
+      }
+      
+      nav a:hover,
+      nav a:focus {
+        color: black;
+      }
+
+      nav li {
+        margin-left: 2em;
+        }
+
+section{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    position: relative;
+    text-align: left;
+    font-family: Barlow Condensed;
+}
+.home-text
+{
+    width: 450px;
+    top: 60px;
+    left: 22.9%;
+    position: relative;
+    text-align: left;
+    font-family: Barlow Condensed;
+}
+
+.home-first {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.home-second {
+    font-size: 100px;
+    margin: 0;
+    font-weight: 300;
+    margin-bottom: 20px;
+}
+
+.home-third {
+    font-size: 18px;
+    margin: 0;
+    line-height: 32px;
+    width: 444px;
+    text-align: justify;
+}
+
+.home-right {
+    width: 50%;
+}
+
+.home-explore {
+
+    position: relative;
+    top: 200px;
+    left:30%;
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    cursor: pointer;
+    font-family: Barlow Condensed;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 32px;
+    line-height: 37px;
+    letter-spacing: 2px;
+    color: #0B0D17;
+}

@@ -1,0 +1,198 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@100&display=swap');
+
+
+body{
+    background-image: url(background-crew-desktop.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+}
+.topnav{
+    position:fixed;
+    top:3.78%;
+    left:65%;
+    overflow: hidden;
+-webkit-backdrop-filter: blur(8px);
+  backdrop-filter: blur(8px);
+ 
+}
+
+.topnav a{
+    font-family: Barlow Condensed;
+    float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  word-spacing: 5px;
+}
+
+.topnav a:hover { background-color: #ddd;
+color: black;
+}
+
+.topnav a.active {
+color: white;}
+
+h1{
+position: absolute;
+    display: inline;
+    bottom:70%;
+    left: 10%;
+    font-size: 28px;
+    font-weight: 400;
+    margin: 0;
+    line-height: 34px;
+    letter-spacing: 4.725px;
+    font-family: Barlow Condensed;
+    left:4%;
+}
+    .crew-role {
+    font-family: Barlow Condensed;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 28px;
+    line-height: 37px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    mix-blend-mode: normal;
+    opacity: 0.5;
+    position: absolute;
+    top:45%;
+    left:4%;
+}
+
+.crew-name {
+    font-family: Barlow Condensed;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 56px;
+    line-height: 64px;
+    text-transform: uppercase;
+    margin-top: 15px;
+    color: #FFFFFF;
+    position: absolute;
+    top: 50%;
+    left:4%;
+}
+
+.crew-detail {
+    margin-top: 27px;
+    font-family: Barlow;
+    font-style: normal;
+    font-weight: normal;
+    font-size:20px;
+    line-height: 32px;
+    color: #D0D6F9;
+    width: 444px;
+    height: 160px;
+    position: absolute;
+    top: 65%;
+    left:4%;
+    font-family: Barlow Condensed;
+}
+
+.crew-img {
+    position: absolute;
+    height: 350px;
+    bottom: 10%;
+    left: 55%;
+}
+.button-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: flex-start;
+    position: fixed;
+    bottom: 30px;
+    left: 45px;
+  }
+  
+  .button {
+    width: 20px;
+    height: 20px;
+    margin: 5px;
+    border-radius: 50%;
+    color: whitesmoke;
+    background-color: whitesmoke;
+  }
+  
+/*resoponsive
+@media screen and (max-width:1226px){
+        body{
+            background: url(background-crew-tablet.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+    
+    
+        .crew-desc {
+            display: flex;
+            flex-direction: column-reverse;
+            margin-top: 33px;
+        }
+    
+        .crew-role {
+            font-family: Barlow Condensed;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 16px;
+            line-height: 18px;
+            text-align: center;
+            text-transform: uppercase;
+            color: #FFFFFF;
+            mix-blend-mode: normal;
+            opacity: 0.5;
+            margin-top: 32px;
+        }
+    
+        .crew-name {
+            font-family: Barlow Condensed;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 24px;
+            line-height: 28px;
+            text-align: center;
+            text-transform: uppercase;
+            color: #FFFFFF;
+            margin-top: 8px;
+        }
+    
+        .crew-detail {
+            font-family: Barlow Condensed;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 15px;
+            line-height: 25px;
+            text-align: center;
+            color: #D0D6F9;
+            width: 87.2vw;
+            margin-bottom: 104px;
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
+            flex-wrap: wrap;
+        }
+    
+        .crew-right {
+            margin-top: 32px;
+        }
+    
+        .crew-image {
+            height: 100px;
+            width: auto;
+            min-height: auto;
+        }
+    
+        .crew-image-border {
+            display: block;
+            width: 87.2vw;
+            height: 1px !important;
+            background: #ffffff;
+            margin: auto;
+        }
+    
+}
+*/
+
